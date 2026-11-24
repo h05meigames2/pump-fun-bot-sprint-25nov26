@@ -103,7 +103,7 @@ export const DEFAULT_PARAMS: Params = {
   addDelay: 2,
   addMinFlowLamports: 20_000_000,
   minBuyLamports: 10_000_000,
-  minRealSol: 2_000_000_000,
+  minRealSol: 1_500_000_000,
   maxRealSol: 30_000_000_000,
   maxDevBuy: 1_000_000_000,
   minTrades: 1,
