@@ -94,7 +94,7 @@ export interface Params {
 
 export const DEFAULT_PARAMS: Params = {
   minAge: 0,
-  maxAge: 5,
+  maxAge: 7,
   stakeLamports: 60_000_000,
   firstLamports: 20_000_000,
   addLamports: 40_000_000,
@@ -112,10 +112,10 @@ export const DEFAULT_PARAMS: Params = {
   maxSellRatioBps: 5_000,
   maxBigSellBps: 10_000,
   minRunupBps: 9_500,
-  maxRunupBps: 14_000,
+  maxRunupBps: 12_000,
   flowWindow: 10,
   minFlowLamports: 30_000_000,
-  minRecentBuyers: 2,
+  minRecentBuyers: 3,
   skipDevSold: true,
   buySlippageBps: 10_000,
   tp1Bps: 1_200,
